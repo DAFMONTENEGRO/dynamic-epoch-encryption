@@ -52,7 +52,7 @@ Su función inversa, o de desencriptado, está dada por:
 D(c) = x*c (mod p)
 
 2.3. Algoritmos
-Revisar archivo “PM2.py”
+Revisar archivo “PMD2.py”
 
 2.4. Configuración experimental
 
