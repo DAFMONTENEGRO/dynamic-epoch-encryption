@@ -33,17 +33,13 @@ El principio del pequeño teorema de Fermat fue usado en el algoritmo con el fin
 
 Este nos dice que:
 
-a^(p-1) ≡ 1 (mod p)
-
-siendo a y p coprimos, lo que se tiene para todo a>0 si p es primo.
+a^(p-1) ≡ 1 (mod p) siendo a y p coprimos, lo que se tiene para todo a>0 si p es primo.
 
 De la anterior afirmación, multiplicando a ambos lados por a^(-1) se puede derivar que:
 
 a^(-1) = a^(p-2) (mod p) = x
 
-Donde x es el inverso multiplicativo de a (mod p)
-
-Por lo tanto, al plantear la ecuación de encriptado:
+Donde x es el inverso multiplicativo de a (mod p). Por lo tanto, al plantear la ecuación de encriptado:
 
 E(n) = a*n (mod p) = c
 
@@ -52,7 +48,7 @@ Su función inversa, o de desencriptado, está dada por:
 D(c) = x*c (mod p)
 
 ### 2.3. Algoritmos
-Revisar archivo “PMD2.py”
+Revisar archivo “pmd2.py”
 
 ### 2.4. Configuración experimental
 
