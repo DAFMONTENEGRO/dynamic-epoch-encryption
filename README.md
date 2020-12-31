@@ -1,7 +1,7 @@
 # dynamic-epoch-encryption
 El proyecto consiste en un encriptador dinámico el cual utiliza el pequeño teorema de Fermat tanto para cifrar como para descifrar un cierto mensaje por medio de cada uno de sus caracteres. Esto se hace descomponiendo el resultado ASCII del carácter en una suma de n enteros y a su vez creando una llave de n números primos generada a través del Epoch Time del computador. Dichos elementos se combinan uno a uno utilizando el teorema antes mencionado, un valor de verificación obtenido a raíz de la llave y un paso dinámico establecido por el usuario. Esto permite que para cada mensaje se cree una encriptación distinta, incluso variando en caracteres repetidos del mismo mensaje.
 
-# Proyecto Matemáticas Discretas 2 2020-2
+# Proyecto Matemáticas Discretas II 2020-2
 
 - Daniel Felipe Montenegro Herrera
 
